@@ -1,0 +1,145 @@
+@media (max-width: 600px) {
+    .heading1 > p{
+        margin: 0%;
+        font-size: 9px;
+        
+    }
+    .heading1{
+        background-color: black;
+        flex-grow: 1;
+        color: white;
+        text-align: center;
+        height: 20px;
+         padding-top: 10px; 
+        
+       }
+       .navbar{
+        display: none;
+       }
+       .logo{
+        flex-wrap: 2;
+        padding-left: 0px;
+        display: block;
+    }
+    .dlogo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bodyimg{
+        height: 375px;
+        width: 375px;
+    }
+    .about > h1{
+        color: white;
+        font-size: 21px;
+        margin: 0%;
+        text-align: justify;
+        
+        
+        
+    }
+    .about2{
+        background-color: #4384b0;
+        height: 300px;
+        width: 99%;
+        
+        
+        
+        
+        
+    }
+    .about{
+        
+        background-color: #54a5dc;
+        height: 200px;
+        
+    
+    }
+    .option1{
+        height: 30px ;
+        width: 200px;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+     
+     }
+     .a > h1 {
+    
+        margin: 0%;
+        font-size: 21px;
+        display: block;
+        text-align: center;
+    }
+    .a > h3 {
+        
+        margin: 0%;
+        color: #213740;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 13px;
+        padding-left: 20px;
+        
+    }
+    .b > h1 {
+        
+        margin: 0%;
+        
+        
+    }
+    .b > h3 {
+        
+        margin: 0%;
+        color: #213740;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 13px;
+        padding-left: 83px;
+        
+    }
+    .c > h1 {
+        
+        margin: 0%;
+        padding-left: 18px;
+        
+    }
+    .c > h3 {
+        
+        margin: 0%;
+        color: #213740;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 13px;
+        padding-left: 83px;
+        
+    }
+    .a{
+        padding-right: 100px;
+        color: white;
+        font-size: 35px;
+        
+    }
+    .b{
+        padding-right: 30px;
+        color: white;
+        font-size: 35px;
+    }
+    .c{
+        padding-left: 30px;
+        color: white;
+        font-size: 35px;
+    }  
+    .heading2{
+        display: block;
+        height: 1000px;
+    }
+    iframe{
+        display: inline-block;
+        
+        
+
+        
+       
+    }
+}
