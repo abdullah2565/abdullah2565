@@ -450,37 +450,36 @@ span{
 }
 
 .cuco{
-    flex-wrap: wrap;
     display: flex;
 }
 .formd{
-    flex-wrap: wrap;
+    
     padding-top: 100px;
     padding-left: 30px;
 }
 #name{
-    flex-wrap: wrap;
+    
     height: 24px;
 }
 #email{
-    flex-wrap: wrap;
+    
     height: 24px;
     margin-left: 20px;
 }
 #country{
-    flex-wrap: wrap;
+    
     margin-top: 27px;
     height: 30px;
     display: block;
 }
 #subject{
-    flex-wrap: wrap;
+    
  margin-top: 25px;
     height: 24px;
     margin-bottom: 15px;
 }
 .btnn{
-    flex-wrap: wrap;
+    
     margin-top: 13px;
     height: 40px;
     color: white;
@@ -490,7 +489,7 @@ span{
 
 }
 .footerd{
-    flex-wrap: wrap;
+    
     height: 70px;
     background-color: black;
     color: white;
