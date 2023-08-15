@@ -1,0 +1,13 @@
+@media (max-width: 600px){
+   .navbarr{
+    width: 285%;
+   }
+   
+    .perent{
+     display: block;
+    }
+    .div2{
+        display: none;
+    }
+
+}
