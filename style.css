@@ -1,94 +1,70 @@
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-  }
-  
-  .heading {
-    text-align: center;
-    background-color: gray;
-    color: #fff;
-    padding: 20px;
-    transition: background-color 0.3s ease; 
-  }
-  
-  .heading:hover {
-    background-color: #999797;
-  }
-  
-  .main {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-  
+}
 
-  
-  .main h2 {
-    margin-bottom: 10px;
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .inn {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+/* Apply a background color to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a container for content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    transition: border-color 0.3s ease; 
-  }
-  
-  .inn:focus {
-    border-color: gray;
-  }
-  
-  .b {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Apply styles to header text */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for labels and input fields */
+label {
     display: block;
-    width: 49%;
-    padding: 10px;
-    text-align: center;
-    background-color: gray;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style for buttons */
+button {
+    background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease; 
-  }
-  
-  .b:nth-child(2) {
-    margin-left: 2%;
-  }
-  
-  .b:hover {
-    background-color: #999797; 
-  }
-  
-  #profit {
-    font-size: 24px;
-    color: #2ecc71;
-  }
-  
-  .bb {
-    display: flex;
-    animation: bounce 1s ease-in-out infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px); 
-    }
-  }
-  
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for paragraphs */
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
