@@ -7,28 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
- 
-    
-    <div id="container">
-        <input placeholder="enter your name" type="text" id="namein">
+    <!-- Heading -->
+    <div class="text"><h1>Image Cards</h1></div>
 
-        <input placeholder="enter your father name" type="text" id="fnamein">
-
-        <input placeholder="score" type="number" id="scorein">
-
-         <button onclick="edit_info ()  ">update</button>
+    <!-- Preview Div -->
+    <div class="preview" id="preview">
+        <img src="" alt="" id="previewImage" class="model">
+        <div class="close" id="close"><h1>×</h1></div>
     </div>
+
+    <!-- Image Container -->
+    <div class="container" id="container"></div>
     
-    <table id="container1">
-    <tr>
-        <th>#</th>
-        <th>student name</th>
-        <th>father name</th>
-        <th>score</th>
-        <th>total score</th>
-    </tr>
-</table>
-    <script src="index.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>
